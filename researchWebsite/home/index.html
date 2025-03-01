@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <title>My Webpage</title> 
+        <meta charset="Utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="favicon" type="images/x-icon" href = "../images/hp_1.jpg">
+    </head>
+    <body>
+        <div class ="header">
+            <h1 style="float: right; font-size:40px;">Home</h1>
+            <h1 style="font-size: 50px;">G.I.G.A byte</h1>
+        </div>
+
+        <h2 style="text-align: center;">Gaming Cool</h2>
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="../images/hp_1.jpg" style="width:100%">
+                <div class="text">Caption Text</div>
+            </div>
+            
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="../images/hp_2.jpg" style="width:100%">
+                <div class="text">Caption Two</div>
+            </div>
+            
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="../images/hp_3.jpg" style="width:100%">
+                <div class="text">Caption Three</div>
+            </div>
+            <br>
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+              </div>
+        </div>
+        <br>
+            <div class="row">
+                <div class="column">
+                    <h2>Esports</h2>
+                    <p>Learn more about the esports scene and the future it holds</p>
+                    <a href="http://solace.ist.rit.edu/~gsi4064/140/research/researchWebsite/eSports/index.html" target="_blank">
+                        <button>See more</button>
+                    </a>
+                </div>
+            <div class="column">
+                <h2>Game Dev</h2>
+                <p>Learn more about the game development side of things in the industry</p>
+                <a href="http://solace.ist.rit.edu/~gsi4064/140/research/researchWebsite/gameDev/index.html" target="_blank">
+                    <button>See more</button>
+                </a>
+            </div>
+            <div class="column">
+                <h2>Industry</h2>
+                <p>Learn more about the ins and outs of the video game industry</p>
+                <a href="http://solace.ist.rit.edu/~gsi4064/140/research/researchWebsite/industry/index.html" target="_blank">
+                    <button>See more</button>
+                </a>
+            </div>
+            <div class="column">
+                <h2>Video game Analysis</h2>
+                <p>Look at the impact of videogames themselves on the future of the industry</p>
+                <a href="http://solace.ist.rit.edu/~gsi4064/140/research/researchWebsite/vgAnalysis/index.html" target="_blank">
+                    <button>See more</button>
+                </a>
+            </div>
+          </div>
+          
+          <script>
+            let slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              let dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 2000); // Change image every 2 seconds
+            }
+            </script>
+    </body>
+</html>

@@ -1,0 +1,40 @@
+body{
+    background-color:#2f3332;
+}
+h1{
+    text-align:center;
+    font-size:30px;
+    color:#dee3e5;
+}
+h2{
+    color:#dee3e5;
+    font-weight:bold;
+}
+h3{
+    color:#cf2d35;
+}
+p{
+    color:#d7615c;
+    text-align: justify;
+    margin: 5px;
+}
+html{
+    color:#dee3e5;
+}
+.deli{
+    display:flex;
+    flex:50%;
+    float:right;
+
+}
+a{
+    color:deepskyblue
+}
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+    padding: 5px;
+  }

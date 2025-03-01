@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+   <meta charset="UTF-8">
+
+   <meta name="viewport" content="width=device-width, initial-scale=ish1.0">
+
+   <title>Document</title>
+
+   <style>
+
+  .child_1 {
+
+       background-color: yellow;
+
+       float: left;
+
+       width: 200px;
+
+       padding: 10px;
+
+       margin: 0 10px 0 0;
+
+   }
+
+   /*
+
+    child_2 has no css
+*/
+    .child_2{
+      background-color: rgba(0,0,0,0);
+    }
+
+   
+
+   /*
+
+   background color of "orange"
+
+   positioned at (110px, 200px) with absolute positioning
+
+   200 pixel width
+
+   10 pixel padding
+
+   */
+
+   .child_3 {
+
+       background-color: orange;
+
+       position: absolute;
+
+       left: 110px;
+
+       top: 200px;
+
+       width: 200px;
+
+       padding: 10px;
+
+   }
+
+   /*
+
+   backgroundcada color of "rgb(255, 80, 0)"
+
+   has white text
+
+   floats to the right
+
+   200 pixel width
+
+   10 pixel padding
+
+   right margin of 40 pixels,
+
+   a top margin of 20 pixels,
+
+   and all other margins set to 0
+
+   */
+
+   .child_4 {
+
+       background-color: rgb(255, 80, 0);
+
+       color: white;
+
+       float: right;
+
+       width: 200px;
+
+       padding: 10px;
+
+       margin: 20px 40px 0 0;
+
+   }
+   div{
+      background-color:rgb(240, 240, 240);
+      border:solid;
+      border-width: 2px;
+      padding:5px;
+      border-color:rgb(0,0,255);
+      width:600px;
+      height: 280px;
+
+   }
+   div > h2{
+      color: blue;
+      font-family: Arial;
+      font-style: italic;
+      
+   }
+   </style>
+
+</head>
+
+<body>
+
+   <div class="parent_container">
+
+       <h2 class="title">
+
+           Yesterday
+
+       </h2>
+
+       <div class="child_1">
+
+           Yesterday, All those backups seemed a waste of pay. Now my database has gone away. Oh I believe in yesterday.
+
+       </div>
+
+       <!-- no css applied -->
+
+       <div class="child_2">
+
+           Suddenly, There's not half the files there used to be, And there's a milestone hanging over me. The system crashed so suddenly. I pushed something wrong, What it was I could not say.
+
+       </div>
+
+       <div class="child_3">
+
+           Now all my data's gone and I long for yesterday-ay-ay-ay.
+
+       </div>
+
+       <div class="child_4">
+
+           Yesterday, The need for back-ups seemed so far away. I knew my data was all here to stay, Now I believe in yesterday.
+
+       </div>
+
+   </div>
+
+   
+
+</body>
+
+</html>

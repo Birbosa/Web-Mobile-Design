@@ -1,0 +1,151 @@
+/*Fonts and Color Variables */
+:root {
+   --header-color: #eae7dc;
+   --bg-color: #d8c3a5;
+   --font-color: #747371;
+   --h1-color: #40b340;
+   --h2-color: #e98074;
+   --h3-color: #e85a4f;
+   --link-color:red;
+   --border-color:#e98074;
+}
+
+
+body {
+   color: var(--font-color);
+   background-color: var(--bg-color);
+   margin: 0;
+   font-family:Tahoma;
+}
+p {
+    color: var(--font-color);
+    text-align: left;
+}
+h1 {
+   color: var(--h1-color);
+ }
+      
+h2 {
+   color: var(--h2-color);
+}
+h3 {
+    color: var(--h3-color);
+}
+a:link {
+   color: var(--link-color);  
+}   
+a:visited {
+   color: var(--h3-color);  
+}   
+a:hover {
+    color: var(--h3-color);
+}
+a:active {
+   color: purple;
+}   
+/*Class Styles */
+* {
+    box-sizing: border-box;
+  }  
+  
+.header {
+    background-color: var(--header-color);
+    padding: 2px;
+    text-align: center;
+    font-size: larger;
+    border: 5px solid var(--border-color);
+    border-radius: 4px;
+}
+  /*Main Body Styling */
+  body {
+    margin: 10px;
+  }
+/*Navigation Styling */
+.navigation {
+    overflow: hidden;
+    background-color: var(--header-color);
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+.navigation a {
+    float: left;
+    color: var(--font-color);
+    text-align: center;
+    Margin-left: 20px;
+    padding: 16px 16px;
+  }
+.navigation a:hover {
+    background-color: #D8DDDC;
+    color: black;
+  }
+
+#description {
+    width: 100%;
+    color: var(--font-color);
+    text-align: left;
+    padding: 14px 16px;
+}
+
+#ourcompany {
+    width: 100%;
+    color: var(--font-color);
+    text-align: left;
+    padding: 14px 16px;
+}
+
+#productimages {
+    /*float: right;*/
+    display: flex;
+    margin-left: 10px;
+    border: 8px solid var(--border-color);
+    border-radius: 8px;
+    padding: 5px;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: white;
+
+    }
+
+#howitwasworn {
+    display: flex;
+    margin-left: 10px;
+    border: 5px solid var(--border-color);
+    border-radius: 4px;
+    padding: 5px;
+    width: 100%;
+    justify-content: center;
+    gap:10px;
+    flex-wrap:wrap;
+    background-color: white;
+}
+.row{
+    display:flex;
+    border: 5px solid var(--border-color);
+}
+.column {
+    flex:50%;
+    }
+#custsay {
+    
+    color: var(--font-color);
+    text-align: left;
+    padding: 14px 16px;
+}
+
+#reviews {
+    text-align: left;
+    padding: 14px 16px;
+}
+
+#contact {
+    width: 100%;
+    background-color: var(--bg-color);
+    padding: 20px;
+    text-align: left;
+    border: 5px solid var(--border-color);
+    border-radius: 4px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Form</title>
+</head>
+<body>
+
+<form action="https://wp.zybooks.com/form-viewer.php" method="POST">
+
+    <p>
+        <label for="status">Game Status:</label>
+        <fieldset>
+            <legend>Status:</legend>
+            <label for="draft">
+                <input type="radio" name="status" id="draft" value="Draft">Draft
+            </label>
+            <label for="final">
+                <input type="radio" name="status" id="final" value="Final" checked>Final
+            </label>
+        </fieldset>
+    </p>
+
+    <p>
+        <label for="gameDate">Select a Date:</label>
+        <select name="gameDate" id="gameDate">
+            <option value="March 20">March 20</option>
+            <option value="March 24">March 24</option>
+            <option value="April 2">April 2</option>
+            <option value="April 6">April 6</option>
+            <option value="April 13">April 13</option>
+        </select>
+    </p>
+
+    <p>
+        <label>Choose Players:</label>
+        <fieldset>
+            <legend>Players:</legend>
+            <label for="aarav">
+                <input type="checkbox" name="player" id="aarav" value="Aarav Agarwal">Aarav Agarwal
+            </label>
+            <label for="ava">
+                <input type="checkbox" name="player" id="ava" value="Ava Johnson">Ava Johnson
+            </label>
+            <label for="julio">
+                <input type="checkbox" name="player" id="julio" value="Julio Ortiz">Julio Ortiz
+            </label>
+            <label for="liam">
+                <input type="checkbox" name="player" id="liam" value="Liam Rubio">Liam Rubio
+            </label>
+            <label for="emma">
+                <input type="checkbox" name="player" id="emma" value="Emma Witherspoon">Emma Witherspoon
+            </label>
+        </fieldset>
+    </p>
+
+    <p>
+        <input type="submit" value="Submit">
+    </p>
+
+</form>
+
+</body>
+</html>

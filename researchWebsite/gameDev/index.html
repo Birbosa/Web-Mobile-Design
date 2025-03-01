@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Ornery Jumpy Cobra</title>
+    <meta property="og:title" content="Ornery Jumpy Cobra" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="home-container">
+        <header data-role="Header" class="home-header">
+          <a
+            href="http://solace.ist.rit.edu/~gsi4064/140/research/researchWebsite/home/index.html"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="home-link button"
+          >
+            Button
+          </a>
+          <h1 class="home-text">Game Dev</h1>
+          <img
+            alt="logo"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAAXNSR0IArs4c6QAABPtJREFUeF7tnWuS4jAMhOFyHIfDcBwux1aoDRU8ttV62XLQ/px1Yqk/tawEdvZ6yT+hFLiGiiaDuSSQYEWQQBJIMAWChZMOSSDBFAgWTjokgQRTIFg46ZAEEkyBYOGkQxJIMAWChZMOSSDBFAgWTjrkcrm8Xq/Xkcv1ep2mC7lxGewWuCRgbdJWcdQM4XlvrgG7QGqBzgBiGceyQFoinA2IN2y1Q3og9puPbFnWhVEKtDQQCYhdAOkZ4ikYVXyafLnO+BT78ULPapQA8YSx5R0aiCeMWvJI9XlOPxQM6VkpdcYfh3hWo1RY6XWUKAiMqUA8YbRag8QhyDUUDKRVaYYXZP/emvdziFcltg50tPok5w4iSCtfbx2Q2KYAQSvdA0ivGySQTsl4idO7r9eeiDO+DnWPSuyN04hDPMRBD/OagEjMHOFba6stq7a5RiAJcGo/q3uiIk4FUjt0pc8plLAtQajrJJPhsg6pjX2zgZQVmkCKD3GOld2zM1XpqEO0QDhxSNoh2vqodZ/PQ9CK4yQmfWWCPBuh8UqehUIDQc4TjkOOa3uJS/t9KxZOIYUAwnmlUNpuF6GWCEf0HizK6tTTfwL5/9n7SCBooXDhjRp533GVSUhahYdDuI7dYmjB57hDc+4hLqbWVL/kwIUiBUIF1zuQa1PeaYGgQkVbl0CiETGKJ8yUZZTP8rdJIMsjtEuA/Cqp3VZ5J0SBBIKoNHBNAhkoNrJVAkFUGrjmFEBmTkXWrGAg0qf3Y8Bewnncl8rX6/0WBIQKrlUl1IdKVklZAuHmapXDrqErkPKtqqVw1s7jgqi9S7NoXz8PRAPCA4oYCNWOPhY8/ANK7mtwtOI0zrMCUnYDNPZynQgI+r0tqmX1kuCIjIjKiblWTPvPqL20Z4oKCBWcFAjHSUgMNfC96xBRW9cj1/bcMxTIFgjnI91Wj0YhSK7nCMopHLSFTQcCB0qcRdR9kC9QcGDUisviHDktEM5XkyRChmxZrSrpjYPadiPZs3SPJAbKgb1BAL32XRjIYmTi4VQMKgjaQpD4jnmi+yPa/Blblb8nxQwIp6dSgqAgeqMot2VJxLeGEdIhXBicQkCfJbhwJDG39iAd0hvtqEpvHZac9oaIwx0/tc8gSEzSNaLfBsTZDH3FIpl0eucCVbVRobgCGQWj1rYoINS0xjmDkL3QInYBwn1vZJEQd9KigNTGWOtWW4NkBoRTUcdALGBIHYJCoarbKgd4yqICav299NCX7CdxiNXUdRoglologGjBWOZBjr2SakUStExC07Jq+SHO1k6F4ucQayDWIFrwvfbR6IFc6+oQJIBc861AAglWEQkkgQRTIFg46ZAEEkyBYOGoHXK73b7+ZwEkv+fzqd4X2WfFNSphJDAQkX4ZWEggvwxtWSAItH3NSo4zB3K/36taPR4Pjoama38WSAsGou4IYCuAETukdqBrgIyAlkAQlR3WtNyWQBzE5tzSog2OhihqWa3nD++WxYGxrf1pIGeEsUEN75AV3GHhjFnPMOyWtTIQysU1kKEdsgKM1tnRe2Dd/i4CjC12lkNWANJqVyWQbd3xZ8sBWQEG1x3HqS2BcGdYcL3VgT767NjTg1uW9rMP6kAF9SaXJRBSIt8FO2grELPG3eEO8cVif/fwLWtLWdu27GXD7jhLXCy671XwGSK5eRSACURCj3ENBXolAGXa/wCInlOhnHN4XAAAAABJRU5ErkJggg=="
+            class="home-image"
+          />
+        </header>
+        <div class="home-hero">
+          <div class="home-container1">
+            <h1 class="home-text01">Unity Engine</h1>
+            <span class="home-text02">
+              <span>
+                - Some games made with unity include: hollow knight, among us,
+                lethal company, slay the spire, and cult of the lamb to name a
+                few
+              </span>
+              <br />
+              <span>
+                - The program is a great introduction to game creation and
+                allows the browsing and use of pre-made assets in games
+              </span>
+              <br />
+              <span>
+                - The downside is engine limitations and the new fees imposed by
+                the company
+              </span>
+            </span>
+          </div>
+          <img
+            alt="image"
+            src="https://cdn.fs.brandfolder.com/cache=expiry:604800/5qDQhZSnTNyjLjCw5FkP"
+            class="home-image1"
+          />
+        </div>
+        <div class="home-hero1">
+          <img
+            alt="image"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASsAAACpCAMAAABEdevhAAAAhFBMVEUAAAD///8BAQEFBQX8/Pz5+fny8vK2trbW1tZzc3Ps7Oze3t6pqaloaGjKysr29vabm5vHx8eJiYl7e3tubm7i4uLAwMCurq6jo6PR0dFZWVmVlZXn5+c4ODgsLCxQUFBiYmIxMTGFhYVCQkJJSUkaGholJSUeHh4QEBA2NjZMTEyPj48hV6AKAAAPLElEQVR4nO2diZriqhKAya5xiWuMaXfbZcb3f79LVQEhMW175k7AsVPnO6NmE/6GoiiKkrFWWmmllVZaaaWVVv6euK7tEvw70qJ6XlzPdgn+IWlZPS8tq+elZfW8eO1Q+LR4QMt2If4R8V62F7ovZ9G8NqvX0g+vx8oVQu9sl0aX12FVT4Yfexlgr8JKATkfd9MJl0M3X5/o0GuU8GVYIan1NOqFjiZ+uFzMNrbLpsQ2K9XzdtHKqRW/l23pSqsFZS/Biv97XIT1oITE2UZcbBOYfVaMzTrQfPz7FiVf4U26hZ76Y1lRK5nOHzapQjpbZtfkssRK2E+M5WVS/nzcn8zy7e9tPjhkaS9R7Qsa13hvdVC0xwraxzUtehpvOFl+ql74eRuqrhg4fmZz4mOV1SBU6sjp3cg48JRScgWW03RJV/n8//nR3ohojRX/Jyp6V3rEo9WLXDGB3vQD1fo+rMGypdtdtulhQwGJ1uD596oIaF7Ij/MiXrNEjompLVhWWHEA7DORDWW5/uZqejlF1AR5P7xCTzUvdtqVx3aylYSzZ27AhrSdC1jh3lKpLXyrx2ZOQN1v6LFnGgl2Rsb6QIrzStZK8xsU86yg0jvU6j4q6qfqLLX8wKdhM9mwO/XWuNhgxXKBKsif9fYTKv7vPibrNLyY7xAWWLF1gl3JCY/V7odEHnVJl516ZL7OGy5mjdjQVyuh1c+1bcp7yIqf6zkB4BobN+ENs4K6jmkIBFRaZV2Krdjlj40nD2FxCbiuM+x3MM/qAF3I94OjVlGXolB+ZfFXVrma9vCz1xU+wvlteG3TeB/co4nkOzutmi4aADlvcN0vvC5yiki2w8ZHlbViZruhWVa8Zh0axz7074U2teVTHo7qvu6uK0ypbZZJWDuyHPrGCo5imtWU5svD0kHGLinOC+ssTDqQL0InZmKkdFlGjzmaKbYQk6ygI4VYx+SkfS1/N6WjrE5ZwYWHOW+L3P6US6yMkYtwaXRiaLRduWxE7WGq1ZEbVCl1qcUXiw/TFZpUOZjqktUnqfeBucIbZIXj+ylAvd4pvhQ8DjEZEc6uYkQQlW1PajixdE+H+3iTUYvUHCvefnizQvnUv3QqvVj8sFu6wYXGlwkv85hpa17wsBA8pUYblklWjJHPKlVDPX8ZSY872EuaGUFghEPQB72uB87w5njDeVLHTOlRzOkrVwyCvqN8e7ziC21tIhdlkUQ8tk2kl3l7P0AmCPFoznY3yAomJz72pqJykfIjcxkp65x1sym3B3ZyBcfJ7oi4okVG78iKsSO1oVx8dNXqhJC4OMGW3Cy/qQWxXtWcx6kOjp6JOdvdJKsM670qKldGxWEth0orxfqJbQ0rl6H9alC7m2Q1Fz1N2lZ9xy/B4u9RVSOInXYqvgv7wFGVLomMld+gfbUnHmtpJ2WVVgVSsGLa4v2qhhV8TCRIM1Uw2K6mWO85Q/MbfTNfsGLYbvrF0V7tMqvshMYmhQZZUc0iMf/NleL271kBiFGJVUlk9C3Rn5iKyzLIaqVUMa/ZOSgY+TVUSqzuDU6C8wvPjk1FGpljdSImwlnQIe+os+qPOhosrQVprJZ1zxODpS+0mYEamGO1RSQxVXKEa6J+jAP+sLa3PWxXjPiA694PvDdjJb18S2S1pq4HHj/+afDHrPpSub8TK6WrI6zjEFGl4syfsYI7J0IFmvl7m2MVYb1wzpfDCh+OiDiC/TkrskYPhgwsc32QlgUn8H1LEUYlpI6V+61uh2uOePqj8dKTmGOFCzjOjL/7dITjSTSHGlbuNzaDkD2eNrWcY44VuoKdHSOfVcyKNZs/Z3UROtCM2GAV8i6ox/L9OavTm7LqSFZ8duNM9VG+bVe6wGgn9RVASEthG/es3P+krxZvNQ5KmwrGQT4Khqw0LfmWVXXuLJ9KNq3yPTct5vpgKurF59CD8nLxtzZDLStyCBL/92IFo5/QLf6w4o761hb9khXZ7XURI02IOVY3OR909pW6fcuqdnW5mA/mdacbEHOsBsLPcEpLh5+Z40hWrlhQVXein0G6eRoXc6zWwn/lXSpL8d/rdrUYxg9/qq1gcrEnfDf/lVxJAKOhHAdU26543T/uWfFrtwvtxg2eNbZMb9CHTAbWoupseoJVKK9keViEiEp/e/aG6ziZ1D3PsGI6Kwxig2MH8L8U6koupr4fK5jb4PpgtQ/OvmtXiTgaVVa/cKtmcLeXtSkxue4cIqtRxbqqsHLpGDtq6Rp83LJ64HNubaeF3KpiLqrIHCuPj/Aq0roUv1ewgtg+2hOgtSpYfkizNKTYPvU46IJ++VjjNTAXq0aqmOI+9VMaKz/AlZ3pvLQoTe/9UigtxMmgbN5wjZ5XKBDRjEV4HjLsalS48h8va5KAwGpieNUUOyg0s13QbBxypKLSZdgnfvmwBsw9LF+fy2DkBwYJmlqYYEZZiaUEvxQvmvWzXi2be34Hraic1Q0PGwxVM7xvYkm1/pTRGi5GOTyHalTJ+UEd1Zghygzvm5AmVke6RStxVl93RIgY9UqDJ1q2fnA2VnqzfdClrX++2M4lDnnLev3kpHGRqQjWtYrgdq7m1hTSvDA0bUYxvMeEAkCc5Kq+Vgv3L8uYXcSOCR/dqdpGAJcml74TGNRWpll5NIXDqA9Zc/7f706Vlk9rzamIPJrqTCh+EuXjbfcu4UYIYVbetMkKL0F3VdFQPcmEk4qPZY8XE7MbirwyVnzjrMCVLKLc5boz/ZsPfdnhaAWf1P8UXfRemdUFQkfI4DKIyvheS48i+pzAP1Y3Vm4mHQQF0X6u3G7CdjXx63NS7H2Tip0ZZ8Wrdg6oF5ZTDhC3y6APE5zwJFuSe5dCxZVOQ3Oxj1JM7w0X7nVoQOGmnItB1vu8O9f3LUzwJFH5/i+jyorZyGXhiUmvU5P3g5VUWFXcIirXwegks6jMs6IYfqHHc1b1ZTHNkKq5k21WqP9pI/67s0IZOsJ0mDyf2BFR7RI15THdqqzloFtKk3P8LKzyFp6+WcuKxE4OOmxZ1A/DwffDmdjsdOyJvutkX/fUBsVOu3KZcJaDDNePU6uJnGrXSM1/qssbhsRWzky1KRyaV7RnrGqZFpdiA7p+JLIl+lPmWSm0vZyZsCShfC6UXxR0UNG1tE52zuRWJzk7NK+tLOaOhnRDynsMSxITctsVzUttp+8qh3yRXfRHscLpy0iD4Di9UX6tXnW8DYuUtc6TGTYbEqs5yRlbL1Xmdkw+kMzT0SQ/HtfHYz79oJ9U0Fw1i6vF4tpkRX0MkpI/sTgBIJdH07PlsthlhRljZp0aLuU3IOPf3+Q9bFxssmJSRW/Tx23KcYLFWt5iT2z/3gQjr5536PhOXWfEJLXjLl1qF9ULsJJZrc7TaH7PKugtBldGv/3341mhSAyX7aSf9uI4DMM47qT9w28yIixDEvIarKyZl/9JXoSVpEWTHHzv4fsvp4kW5GVYSbGulb6WltXz8nKsXlhaVs9Lk6zcymv5/V9OKG6g6zbPSuVPpQGu+KAdu0uapk7qhz35WFf3CcoB9B1YFUjw+4qga+3ofUU9995PLNftS4/Xg7Ialkb11a9pt9tVUAbdLiTCzLso0pG+4+/50W13JmQw2OV7BLPrlmQnH7uBx3ZFdiIXH1iTfvTvS6OsMMhf/c0hMPRDJjJW68YQu3eQSdeUzOG3BpflYxTJ7soY74Pofnhr9G+zklEe6gBQuamQPEiwBvUD59WUsajMxQm8u7h3jPTjSkv8Ygxt/mJ066K2CH9ZbLHyIYS4wmrVAenNA1g57BKr1bIjJVLP8f0Ql+nfhpXcGKg+dwpWY0iSPVfBVAeqsMyhs0noGLCaVB7JWJej6mFiBpEw/x1YsQorrV1lM0pl7Lk6q0VxJUaF1LOCSO4BLltH79OuHrDqQ85a2DXCalnNcUcJ7pKfj4dClmfUVhN+rgcpIH3IsQ3yVqzEOFhihVoHKqv0FcR/ns+bzXp/gOWvNbYr3VG6wXEPeu+AUQwX/fTSe7DaPWB1gsxOcYmVAhP4CeygrLDaA6tMpERkJ9hgt30/VkxtvJlIVriFAlqG1gflgj2X/plYOdnnVkgO9tg1gJv6XLIVvxBDu3VWjXoGm2e1l58gj3/BijSPcxhrrAIQh35zd1+n23WkKDN2166ag9UoK9wvOJ8df/1arwfYo2aqD8r9yrBjsmwznD7gyimx6m9zJZA7RF9f9WnzNNyaDsREaLp/WKL/S5r1X2l74amWm6IPMhzvMIqhOg52lM1QWgS74nSm050KCeiyqHRZg8EhzfoZdk5ZIKtXn1gBrL1oJIoVZSvHieDtbo4TMPwBoWInLzwprE6PGvyZgCbtds9j56wXBvgDQkEyjyAigWVJGGTCCbULwoR/5P1tkYRJX+qaIT/GG0yahJokMRvyl7F4OL/7FPOjGYv0y4J/k5W0FU7caNpsTtoRJsbG//rV2vXqSXcRW81Js/qq6u8sXH4Eqwjh01/Y/YcHYm69wMTahGBy7xWmo+L12Sc9urBZV7Lh/c7qvV4C/JfOao5j9Bgrr7FbvulLIm/CqiQX6TPesXw262KfHMz4/NDLD5PD4QCj3Y6f/OSXnKGMcDIX93Q3Pym+nc9whIToTgCf5xUcy7k0lYIjn0AuMXskJnoKuUmhAgC7Vspsi9Unn+p9gEy4gRlQpoqEG1U9J8kOh8kC9pF0OKu+w00OMFJX3CgbO/Mb3DM6/qh2xVnJ9NGpMx5BouQrsErANczlMBpwkxRYdQ7oiCBWwrqyU2h7rHxpyqdOB5rThRErbrAvl8vxMBOs5pA36yhYCbFSZEv7vDDf/TjlMu5yVkt2SrhWCpDVB58nznsJb0LAKgO3/MqJBas4gpvS77+iCbHI6iI+ASvINBPFyIpALHVWa99J58hKUvppfTCMUYgVpWi6gSch7nU6MXTOjuiDjLKJ9flkOljBLeHtR+n2306Cnr0g4XjQKZwGiX9jlxR/AdoPI48t/SFvVz0oZJ+fzNg4oJuM/RpHWZCVnU1TpVe3+HC6XC44I6bNN54MkLEeKOYxU7/w9EjcmtkzEnL1Y8/McZoUS6zcynxaxlRpoVQyWksPPLL7R/Us/Y20ULOy96F04qtb7TDzbP2tSt9aV4YHxbLGqpVnpWX1vNgeAVtppZVWWmmllVZaaaWVVlpppZU3kv8BTymarN+mtBEAAAAASUVORK5CYII="
+            class="home-image2"
+          />
+          <div class="home-container2">
+            <h1 class="home-text08">Unreal Engine</h1>
+            <span class="home-text09">
+              <br />
+              <span>
+                - Unreal is an engine used in both game creation as well as
+                other productions
+              </span>
+              <br />
+              <span>
+                - Popular games include: fortnight, payday 3, and ark survival
+                evolved
+              </span>
+              <br />
+              <span>
+                - Unreal requires much more experience than unity, however the
+                limitations on creation is much smaller as a result
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

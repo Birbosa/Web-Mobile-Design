@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Ornery Jumpy Cobra</title>
+    <meta property="og:title" content="Ornery Jumpy Cobra" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="home-container">
+        <header data-role="Header" class="home-header">
+          <a
+            href="http://solace.ist.rit.edu/~gsi4064/140/research/researchWebsite/home/index.html"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="home-link button"
+          >
+            Button
+          </a>
+          <h1 class="home-text">Videogame Market</h1>
+          <img
+            alt="logo"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAAXNSR0IArs4c6QAABPtJREFUeF7tnWuS4jAMhOFyHIfDcBwux1aoDRU8ttV62XLQ/px1Yqk/tawEdvZ6yT+hFLiGiiaDuSSQYEWQQBJIMAWChZMOSSDBFAgWTjokgQRTIFg46ZAEEkyBYOGkQxJIMAWChZMOSSDBFAgWTjrkcrm8Xq/Xkcv1ep2mC7lxGewWuCRgbdJWcdQM4XlvrgG7QGqBzgBiGceyQFoinA2IN2y1Q3og9puPbFnWhVEKtDQQCYhdAOkZ4ikYVXyafLnO+BT78ULPapQA8YSx5R0aiCeMWvJI9XlOPxQM6VkpdcYfh3hWo1RY6XWUKAiMqUA8YbRag8QhyDUUDKRVaYYXZP/emvdziFcltg50tPok5w4iSCtfbx2Q2KYAQSvdA0ivGySQTsl4idO7r9eeiDO+DnWPSuyN04hDPMRBD/OagEjMHOFba6stq7a5RiAJcGo/q3uiIk4FUjt0pc8plLAtQajrJJPhsg6pjX2zgZQVmkCKD3GOld2zM1XpqEO0QDhxSNoh2vqodZ/PQ9CK4yQmfWWCPBuh8UqehUIDQc4TjkOOa3uJS/t9KxZOIYUAwnmlUNpuF6GWCEf0HizK6tTTfwL5/9n7SCBooXDhjRp533GVSUhahYdDuI7dYmjB57hDc+4hLqbWVL/kwIUiBUIF1zuQa1PeaYGgQkVbl0CiETGKJ8yUZZTP8rdJIMsjtEuA/Cqp3VZ5J0SBBIKoNHBNAhkoNrJVAkFUGrjmFEBmTkXWrGAg0qf3Y8Bewnncl8rX6/0WBIQKrlUl1IdKVklZAuHmapXDrqErkPKtqqVw1s7jgqi9S7NoXz8PRAPCA4oYCNWOPhY8/ANK7mtwtOI0zrMCUnYDNPZynQgI+r0tqmX1kuCIjIjKiblWTPvPqL20Z4oKCBWcFAjHSUgMNfC96xBRW9cj1/bcMxTIFgjnI91Wj0YhSK7nCMopHLSFTQcCB0qcRdR9kC9QcGDUisviHDktEM5XkyRChmxZrSrpjYPadiPZs3SPJAbKgb1BAL32XRjIYmTi4VQMKgjaQpD4jnmi+yPa/Blblb8nxQwIp6dSgqAgeqMot2VJxLeGEdIhXBicQkCfJbhwJDG39iAd0hvtqEpvHZac9oaIwx0/tc8gSEzSNaLfBsTZDH3FIpl0eucCVbVRobgCGQWj1rYoINS0xjmDkL3QInYBwn1vZJEQd9KigNTGWOtWW4NkBoRTUcdALGBIHYJCoarbKgd4yqICav299NCX7CdxiNXUdRoglologGjBWOZBjr2SakUStExC07Jq+SHO1k6F4ucQayDWIFrwvfbR6IFc6+oQJIBc861AAglWEQkkgQRTIFg46ZAEEkyBYOGoHXK73b7+ZwEkv+fzqd4X2WfFNSphJDAQkX4ZWEggvwxtWSAItH3NSo4zB3K/36taPR4Pjoama38WSAsGou4IYCuAETukdqBrgIyAlkAQlR3WtNyWQBzE5tzSog2OhihqWa3nD++WxYGxrf1pIGeEsUEN75AV3GHhjFnPMOyWtTIQysU1kKEdsgKM1tnRe2Dd/i4CjC12lkNWANJqVyWQbd3xZ8sBWQEG1x3HqS2BcGdYcL3VgT767NjTg1uW9rMP6kAF9SaXJRBSIt8FO2grELPG3eEO8cVif/fwLWtLWdu27GXD7jhLXCy671XwGSK5eRSACURCj3ENBXolAGXa/wCInlOhnHN4XAAAAABJRU5ErkJggg=="
+            class="home-image"
+          />
+        </header>
+        <div class="home-hero">
+          <div class="home-container1">
+            <h1 class="home-text1">The PC game market</h1>
+            <span class="home-text2">
+              The PC game market is truly only limited by the creativity of the
+              developers. Everything from visual novels to FPS to RTS exist, and
+              as long as it has a price and audience, it will inevitably sell. A
+              big indie hit currently is lethal company which is on track to
+              sell more copies than the new call of duty game.
+            </span>
+          </div>
+          <img
+            alt="image"
+            src="https://dotesports.com/wp-content/uploads/2023/11/Lethal-Company-1-1.jpg"
+            class="home-image1"
+          />
+        </div>
+        <div class="home-hero1">
+          <img
+            alt="image"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Osu%21_Logo_2016.svg/2048px-Osu%21_Logo_2016.svg.png"
+            class="home-image2"
+          />
+          <div class="home-container2">
+            <h1 class="home-text3">Free games and their impact</h1>
+            <span class="home-text4">
+              <br />
+              <span>
+                OSU! is a fan made project commonly seen in the competitive
+                scene and memes. this game is FREE, but requires constant
+                community support to keep going. This is done by the community
+                and their pride for the game
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

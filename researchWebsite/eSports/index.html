@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Ornery Jumpy Cobra</title>
+    <meta property="og:title" content="Ornery Jumpy Cobra" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="home-container">
+        <header data-role="Header" class="home-header">
+          <a
+            href="http://solace.ist.rit.edu/~gsi4064/140/research/researchWebsite/home/index.html"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="home-link button"
+          >
+            Button
+          </a>
+          <h1 class="home-text">E-Sports</h1>
+          <img
+            alt="logo"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAAXNSR0IArs4c6QAABPtJREFUeF7tnWuS4jAMhOFyHIfDcBwux1aoDRU8ttV62XLQ/px1Yqk/tawEdvZ6yT+hFLiGiiaDuSSQYEWQQBJIMAWChZMOSSDBFAgWTjokgQRTIFg46ZAEEkyBYOGkQxJIMAWChZMOSSDBFAgWTjrkcrm8Xq/Xkcv1ep2mC7lxGewWuCRgbdJWcdQM4XlvrgG7QGqBzgBiGceyQFoinA2IN2y1Q3og9puPbFnWhVEKtDQQCYhdAOkZ4ikYVXyafLnO+BT78ULPapQA8YSx5R0aiCeMWvJI9XlOPxQM6VkpdcYfh3hWo1RY6XWUKAiMqUA8YbRag8QhyDUUDKRVaYYXZP/emvdziFcltg50tPok5w4iSCtfbx2Q2KYAQSvdA0ivGySQTsl4idO7r9eeiDO+DnWPSuyN04hDPMRBD/OagEjMHOFba6stq7a5RiAJcGo/q3uiIk4FUjt0pc8plLAtQajrJJPhsg6pjX2zgZQVmkCKD3GOld2zM1XpqEO0QDhxSNoh2vqodZ/PQ9CK4yQmfWWCPBuh8UqehUIDQc4TjkOOa3uJS/t9KxZOIYUAwnmlUNpuF6GWCEf0HizK6tTTfwL5/9n7SCBooXDhjRp533GVSUhahYdDuI7dYmjB57hDc+4hLqbWVL/kwIUiBUIF1zuQa1PeaYGgQkVbl0CiETGKJ8yUZZTP8rdJIMsjtEuA/Cqp3VZ5J0SBBIKoNHBNAhkoNrJVAkFUGrjmFEBmTkXWrGAg0qf3Y8Bewnncl8rX6/0WBIQKrlUl1IdKVklZAuHmapXDrqErkPKtqqVw1s7jgqi9S7NoXz8PRAPCA4oYCNWOPhY8/ANK7mtwtOI0zrMCUnYDNPZynQgI+r0tqmX1kuCIjIjKiblWTPvPqL20Z4oKCBWcFAjHSUgMNfC96xBRW9cj1/bcMxTIFgjnI91Wj0YhSK7nCMopHLSFTQcCB0qcRdR9kC9QcGDUisviHDktEM5XkyRChmxZrSrpjYPadiPZs3SPJAbKgb1BAL32XRjIYmTi4VQMKgjaQpD4jnmi+yPa/Blblb8nxQwIp6dSgqAgeqMot2VJxLeGEdIhXBicQkCfJbhwJDG39iAd0hvtqEpvHZac9oaIwx0/tc8gSEzSNaLfBsTZDH3FIpl0eucCVbVRobgCGQWj1rYoINS0xjmDkL3QInYBwn1vZJEQd9KigNTGWOtWW4NkBoRTUcdALGBIHYJCoarbKgd4yqICav299NCX7CdxiNXUdRoglologGjBWOZBjr2SakUStExC07Jq+SHO1k6F4ucQayDWIFrwvfbR6IFc6+oQJIBc861AAglWEQkkgQRTIFg46ZAEEkyBYOGoHXK73b7+ZwEkv+fzqd4X2WfFNSphJDAQkX4ZWEggvwxtWSAItH3NSo4zB3K/36taPR4Pjoama38WSAsGou4IYCuAETukdqBrgIyAlkAQlR3WtNyWQBzE5tzSog2OhihqWa3nD++WxYGxrf1pIGeEsUEN75AV3GHhjFnPMOyWtTIQysU1kKEdsgKM1tnRe2Dd/i4CjC12lkNWANJqVyWQbd3xZ8sBWQEG1x3HqS2BcGdYcL3VgT767NjTg1uW9rMP6kAF9SaXJRBSIt8FO2grELPG3eEO8cVif/fwLWtLWdu27GXD7jhLXCy671XwGSK5eRSACURCj3ENBXolAGXa/wCInlOhnHN4XAAAAABJRU5ErkJggg=="
+            class="home-image"
+          />
+        </header>
+        <div class="home-hero">
+          <div class="home-container1">
+            <h1 class="home-text1">Esports vs Casual Competition</h1>
+            <span class="home-text2">
+              Often seen today are Esport tournaments in games such as Leauge of
+              Legends, Counter Strike 2, and Valorant that bring in a ton of
+              fans, giant arenas, and massive prize pools that would bring other
+              events to shame. On the other hand however, games like team
+              fortress 2 have a much lesser seen, but more casual approach to
+              both esports and gaming as a whole. Instead of trying to be the
+              next hit thing like Valorant or LoL, it instead focuses on what
+              makes a game enjoyable and bridges the gap between playing to win,
+              and playing for fun.
+            </span>
+          </div>
+          <img
+            alt="image"
+            src="data:image/png;base64,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"
+            class="home-image1"
+          />
+        </div>
+        <div class="home-hero1">
+          <img
+            alt="image"
+            src="https://pbs.twimg.com/profile_images/1371895900142977028/mKPM8hT1_400x400.jpg"
+            class="home-image2"
+          />
+          <div class="home-container2">
+            <h1 class="home-text3">The future of esports</h1>
+            <span class="home-text4">
+              <br />
+              <span>
+                Esports today are a much different from what the were just a few
+                years ago. what once was a way to get views on youtube, or
+                recognized as a kids dream job, has now become a way to fame and
+                riches. As a result however, the fun and charm of the industry
+                has instead been switched out for a way to market products,
+                games, and bring in views from all around the world. In terms of
+                how the future will go, it is widely unknown, with the only
+                definite fact being the continuation of the cultural phenomenon
+                being guranteed.
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
